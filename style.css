@@ -1,4 +1,4 @@
-/*
+
 h1 {
     font-size: 55px;
     text-align: center;
@@ -7,12 +7,48 @@ html {
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
 }
-li {
+.navmenu {
+    margin:0;
+    padding: 0;
+    list-style-type: none ;
     text-align: center;
-    font-size: 35px;
-    list-style-type: none;
-    line-height: 1.7;
+    background-color:  #808080;
+    width: 550 px;
+    border: 2px solid   #808080;
+    border-radius: 20px ;
+}
+.navmenu li {
+    display: inline;
+}
+.navmenu a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+.navmenu a:hover {
+    border-radius: 20px;
+    background-color: #4D4D4D;
+}
+main {
+    margin: 60px;
 }
 h2 {
     font-size: 35px;
-}*/
+}
+.airline {
+    text-align: center;
+}
+.airline a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.airline a:hover {
+    color: red;
+    text-decoration: underline;
+}
+.img_airline {
+    text-align: center;
+}

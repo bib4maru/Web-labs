@@ -2,42 +2,75 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
     <title>Бронирование авиабилетов</title>
   </head>
     <body>
-      <a href="index.html">На главную</a>
       <header>
-        <h1 align="center">Авиакомпании</h1>
+        <h1>Авиакомпании</h1>
       </header>
-      <table width="100%" border="1">
-        <tr>
-          <th>Авиакомпания</th>
-          <th>Самолëты авиакомпании</th>
-          <th>Базовые аэропорты</th>
-          <th>Города,в которые летает авиакомпания</th>
-          <th>Сайт</th>
-        </tr>
-        <tr>
-          <td>
-            <h2 align="center">Turkish Airlines</h2>
-            <img src="images/turkishlogo.png" height="150" width="300">
-          </td>
-          <td>Аэробус А319,Аэробус А320,Аэробус А321,Аэробус А330-200,Аэробус А330-300,Аэробус А350-900,Боинг 737 MAX 8,Боинг 737 MAX 9,
-            Боинг 737-400,Боинг 737-800,Боинг 737-800 Винглетс,Боинг 777-300ЕР,Боинг 787-9 Дримлайнер</td>
-          <td align="center">Стамбул (Сабиха Гёкчен),Стамбул (Ататюрк),Анкара (Эсенбога)</td>
-          <td align="center">Чикаго,Нью-Йорк,Лондон,Лос-Анджелес,Сан-Франциско,Франкфурт-на-Майне,Вашингтон,Даллас,Мадрид,Копенгаген,Париж,Мюнхен,Осло и тд.</td>
-          <td><a href="http://www.turkishairlines.com">Официальный сайт авиакомпании</a></td>
-        </tr>
-        <tr>
-          <td>
-            <h2 align="center">S7 Airlines</h2>
-            <img src="images/S7Logo.png" height="120" width="200" >
-          </td>
-          <td>АТР 42/72,Аэробус А320,Аэробус А320нео,Аэробус А321,Аэробус А321 нео,Боинг 737-800 Винглетс,Эйрбас А319 Шарклетс,Эмбраер 170</td>
-          <td align="center">Москва (Домодедово),Новосибирск (Толмачёво)</td>
-          <td align="center">Лондон,Франкфурт-на-Майне,Париж,Вена,Мюнхен,Сидней,Барселона,Мельбурн,Рим,Милан,Берлин,Токио,Сингапур,Дюссельдорф,Лиссабон и тд.</td>
-          <td><a href="http://www.s7.ru">Официальный сайт авиакомпании</a></td>
-        </tr>
-      </table>
+      <nav>
+        <ul class="navmenu">
+          <li><a href="index.html">Главная страница</a></li>
+          <li><a href="airlines.html">Авиакомпании</a></li>
+          <li><a href="placeOfDeparture.html">Место отправления</a></li>
+          <li><a href="placeOfArrival.html">Место прибытия</a></li>
+        </ul>
+      </nav>
+      <main>
+        <h2 class="airline"><a href="http://www.turkishairlines.com" target="_blank">Turkish Airlines</a></h2>
+        <p class="img_airline"><img src="images/turkishlogo.png" height="150" width="250"></p>
+        <h3>Самолëты авиакомпании:</h3>
+        <ul>
+          <li>Аэробус А319</li>
+          <li>Аэробус А320</li>
+          <li>Аэробус А321</li>
+          <li>Боинг 787-9 Дримлайнер</li>
+          <li>Боинг 777-300ЕР</li>
+          <li>Боинг 737-800 Винглетс</li>
+          <li>Боинг 737-400</li>
+        </ul>
+        <h3>Базовые аэропорты:</h3>
+        <ul>
+          <li>Стамбул (Сабиха Гёкчен)</li>
+          <li>Стамбул (Ататюрк)</li>
+          <li>Анкара (Эсенбога)</li>
+        </ul>
+        <h3>Города,в которые летает авиакомпания:</h3>
+        <ul>
+          <li>Чикаго</li>
+          <li>Вашингтон</li>
+          <li>Мадрид</li>
+          <li>Париж</li>
+          <li>Мюнхен</li>
+          <li>Осло и тд.</li>
+        </ul>
+        <h2 class="airline"><a href="http://www.s7.ru" target="_blank">S7 Airlines</a></h2>
+        <p class="img_airline"><img src="images/S7Logo.png" height="120" width="200" ></p>
+        <h3>Самолëты авиакомпании:</h3>
+        <ul>
+          <li>АТР 42/72</li>
+          <li>Аэробус А320</li>
+          <li>Боинг 737-800 Винглетс</li>
+          <li>Эмбраер 170</li>
+          <li>Эйрбас А319 Шарклетс</li>
+          <li>Аэробус А321 нео</li>
+        </ul>
+        <h3>Базовые аэропорты:</h3>
+        <ul>
+          <li>Москва (Домодедово)</li>
+          <li>Новосибирск (Толмачёво)</li>
+        </ul>
+        <h3>Города,в которые летает авиакомпания:</h3>
+        <ul>
+          <li>Лондон</li>
+          <li>Франкфурт-на-Майне</li>
+          <li>Париж</li>
+          <li>Сидней</li>
+          <li>Милан</li>
+          <li>Токио и тд.</li>
+        </ul>
+      </main>
     </body>
 </html>
